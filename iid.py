@@ -1,7 +1,7 @@
 import numpy as np
 from torch.utils.data import Dataset, DataLoader
 
-from datasets.GTSRB import get_GTSRB
+from GTSRB import get_GTSRB
 
 
 def Dirichlet_noniid_dir(dataset, num_users, alpha):
